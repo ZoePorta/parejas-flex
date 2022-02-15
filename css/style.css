@@ -19,6 +19,7 @@ body {
   background: rgb(13, 158, 255);
   color: white;
   text-decoration: none;
+  width: fit-content;
   min-width: 10rem;
   padding: 0.5rem;
   text-align: center;
@@ -67,6 +68,31 @@ footer a {
   text-transform: lowercase;
 }
 
+/* INDEX */
+#index header img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 10px solid;
+}
+
+#index header a.mail {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#index ul li {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+#index ul ::marker {
+  font-size: 1.5rem;
+}
+
 /* ABOUT */
 #about img {
   width: 100%;
@@ -88,8 +114,7 @@ footer a {
   header,
   section {
     padding: 0;
-    width: 33.3%;
-    max-width: 300px;
+    width: 30%;
   }
 
   #about section {
